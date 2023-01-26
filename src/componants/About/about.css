@@ -1,0 +1,54 @@
+.about-container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-black);
+
+}
+
+.about-heading {
+    margin-top: 2rem;
+}
+
+.about-main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    line-height: 1.5;
+}
+
+.insta-profile-link {
+    text-decoration: none;
+    color: var(--color-theme);
+    font-size: larger;
+    font-weight: 800;
+}
+
+.contact-div {
+    background-color: var(--color-black);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contacts-head {
+    margin-top: 2rem;
+}
+
+.contact-div p {
+    margin: 2rem 2rem;
+}
+
+.insta-icon-contact {
+    color: var(--color-theme);
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}

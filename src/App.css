@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  scroll-behavior: smooth;
+  /* background-color: var(--color-black); */
+}
+
+.theme-color {
+  color: var(--color-theme)
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

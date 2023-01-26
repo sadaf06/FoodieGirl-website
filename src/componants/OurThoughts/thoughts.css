@@ -1,0 +1,112 @@
+.thoughts-container {
+    background-color: var(--color-black);
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.believe h1 {
+    font-family: var(--font-family);
+    font-size: 4rem;
+    margin-top: 2rem;
+}
+
+.believe-content-container {
+    width: 100%;
+    display: flex;
+    margin: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    /* background-color: aqua; */
+}
+
+.believe-image {
+    display: flex;
+    flex: 1;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 3rem;
+}
+
+.believe-image img {
+    width: 350px;
+    height: 400px;
+    z-index: 1;
+}
+
+.believe-image .b-square {
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    border: solid 5px var(--color-theme);
+    margin-bottom: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+.believe-image .b-square1 {
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    border: solid 5px var(--color-theme);
+    margin-top: 2.5rem;
+    margin-left: 2.5rem;
+    background-color: var(--color-theme);
+}
+
+.thought-p-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex: 1.5;
+    justify-content: center;
+    align-items: flex-start;
+    /* background-color: red; */
+}
+
+.thought-p-content p {
+    width: 75%;
+    margin: 0 1rem;
+}
+
+@media screen and (max-width : 920px) {
+    .thoughts-container {
+        padding: 2rem 0;
+        height: auto;
+    }
+
+    .believe h1 {
+        font-size: 3rem;
+    }
+
+    .believe-content-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .believe-image img {
+        width: 200px;
+        height: 250px;
+        z-index: 1;
+    }
+
+    .believe-image .b-square {
+        width: 200px;
+        height: 250px;
+    }
+
+    .believe-image .b-square1 {
+        width: 200px;
+        height: 250px;
+    }
+
+    .thought-p-content {
+        align-items: center;
+    }
+}
